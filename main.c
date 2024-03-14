@@ -8,12 +8,11 @@ void update();
 void destroy();
 
 // set array as tinydb
-int dinamicSize = 0;
-char *crudArray[dinamic] = {};
+char *crudArray[][255] = {};
 
 void main(){
 
-    crudArray[0] = "teste";
+    *crudArray[0] = "teste";
 
     printf("%s \n", *crudArray[0]);
 }
