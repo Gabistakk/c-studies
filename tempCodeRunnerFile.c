@@ -1,6 +1,1 @@
-
-// set array as tinydb
-char crudArray[][255] = {};
-
-void main(){
-      crudArray[0] = "teste";
+for (int i = 0; i < 10; i++) dynamicArray_append(da, i);
