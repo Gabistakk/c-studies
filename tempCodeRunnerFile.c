@@ -1,1 +1,2 @@
-for (int i = 0; i < 10; i++) dynamicArray_append(da, i);
+;
+            printf("%s \n", crudArray[i]);
